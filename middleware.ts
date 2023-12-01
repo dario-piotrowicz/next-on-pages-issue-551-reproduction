@@ -6,7 +6,7 @@ export function middleware(request: NextRequest) {
   const searchParams = new URL(request.url).searchParams;
 
   if(searchParams.has('external')) {
-    return NextResponse.rewrite(new URL('https://www.google.com', request.url));
+    return NextResponse.rewrite(new URL('https://hello-world.dario-piotrowicz.workers.dev/', request.url));
   }
 
   if(searchParams.has('internal')) {

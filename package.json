@@ -18,11 +18,12 @@
     "react-dom": "^18"
   },
   "devDependencies": {
-    "@cloudflare/next-on-pages": "^1.8.0",
+    "@cloudflare/next-on-pages": "https://prerelease-registry.devprod.cloudflare.dev/next-on-pages/runs/7060457719/npm-package-next-on-pages-568",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
     "typescript": "^5",
-    "vercel": "^32.6.0"
+    "vercel": "^32.6.0",
+    "wrangler": "^3.18.0"
   }
 }
