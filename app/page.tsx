@@ -59,7 +59,7 @@ export default function Home() {
           <h2>
             external rewrite <span>-&gt;</span>
           </h2>
-          <p>Shows an external rewrite to <code>google.com</code></p>
+          <p>Shows an external rewrite to <code>hello-world.dario-piotrowicz.workers.dev</code></p>
         </a>
       </div>
     </main>
