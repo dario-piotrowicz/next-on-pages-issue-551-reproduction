@@ -52,6 +52,7 @@
   background: rgba(var(--card-rgb), 0);
   border: 1px solid rgba(var(--card-border-rgb), 0);
   transition: background 200ms, border 200ms;
+  text-align: center;
 }
 
 .card span {
@@ -69,7 +70,6 @@
   opacity: 0.6;
   font-size: 0.9rem;
   line-height: 1.5;
-  max-width: 30ch;
 }
 
 .center {
@@ -203,7 +203,7 @@
 }
 
 /* Tablet and Smaller Desktop */
-@media (min-width: 701px) and (max-width: 1120px) {
+@media (min-width: 701px){
   .grid {
     grid-template-columns: repeat(2, 50%);
   }

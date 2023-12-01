@@ -1,8 +1,14 @@
+import styles from "../page.module.css";
+
 export default function RewriteDest() {
   return (
-    <div>
+    <main className={styles.main}>
+      <div className={styles.center}>
         <h1>Rewrite Destination!</h1>
-        <p>This component comes from <code>/rewrite-dest</code></p>
-    </div>
-  )
+      </div>
+        <p>
+          This component comes from <code>/rewrite-dest</code>
+        </p>
+    </main>
+  );
 }
